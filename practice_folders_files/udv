@@ -1,0 +1,4 @@
+#!/bin/bash
+b="Péter"
+udv="Hello ${b}né!"
+echo $udv

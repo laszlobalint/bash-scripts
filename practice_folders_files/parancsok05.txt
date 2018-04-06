@@ -1,0 +1,1 @@
+cat allat2.txt | sort > rend2.txt

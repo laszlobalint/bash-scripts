@@ -1,0 +1,2 @@
+dir: cannot access 'letezofajl.txt': No such file or directory
+dir: cannot access 'nemletezofajl.txt': No such file or directory

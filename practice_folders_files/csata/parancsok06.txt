@@ -1,0 +1,1 @@
+echo 'Megy a huszár a csatába.' -> ~/csata/huszar.txt ; echo 'Megy a huszár a csatába.' -> ~/csata/huszar.txt

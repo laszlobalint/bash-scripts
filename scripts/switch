@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "Főmenü:
+1. Első
+2. Második
+3. Harmadik
+4. Negyedik
+5. Ötödik"
+
+echo -n "Adj meg egy számot 1 és 5 között: "
+read a
+
+case $a in
+	"1")
+	echo "Első."
+;;
+	"2")
+	echo "Második."
+;;
+	"3")
+	echo "Harmadik."
+;;
+	"4")
+	echo "Negyedik."
+;;
+	"5")
+	echo "Ötödik."
+;;
+esac
