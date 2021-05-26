@@ -1,6 +1,0 @@
-laszloba
-mv alma.txt szilva.txt
-mkdir Orszag
-mkdir Orszag
-cd Orszag && mkdir Ukrajna Lengyelorszag Franciaorszag Spanyolorszag Portugalia
-mkdir Spanyolorszag/Madrid/

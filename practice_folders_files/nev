@@ -1,9 +1,0 @@
-#!/bin/bash
-echo -n "Adj meg egy nevet: "
-read e
-echo -n "Adj meg egy címet: "
-read f
-echo "Név: $e "
-echo "Cím: $f "
-read a d c
-echo $a $d $c

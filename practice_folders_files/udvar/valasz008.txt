@@ -1,4 +1,0 @@
-touch ./szeker/lovak.txt
-touch ./szeker/lovak.txt
-mkdir kut kapu szeker pad
-cat >> lovak.txt

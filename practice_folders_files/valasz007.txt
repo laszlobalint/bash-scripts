@@ -1,3 +1,0 @@
-
-wtmp begins Tue Jan 16 09:06:15 2018
-ls -l

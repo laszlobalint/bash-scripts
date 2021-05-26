@@ -1,8 +1,0 @@
-mkdir Parok
-cd Parok && touch JaniKati.txt AgiLali.txt RoliMari.txt GabiGabi.txt
-ls -l /home/laszlobalint/Documents/Bemutatkozo/Parok
-total 0
--rw-rw-r-- 1 laszlobalint laszlobalint 0 febr   5 18:30 AgiLali.txt
--rw-rw-r-- 1 laszlobalint laszlobalint 0 febr   5 18:30 GabiGabi.txt
--rw-rw-r-- 1 laszlobalint laszlobalint 0 febr   5 18:30 JaniKati.txt
--rw-rw-r-- 1 laszlobalint laszlobalint 0 febr   5 18:30 RoliMari.txt

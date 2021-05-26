@@ -1,13 +1,13 @@
 #!/bin/bash
 echo "Adjon meg egy kiírandó sor sorszámát: "
 read a
-let linenumber=(`cat adatok.dat | wc -l` -1)
+let linenumber=(`cat data.dat | wc -l` -1)
 echo "Sorok száma:"$linenumber
 if [[ $a -lt 1 ]] || [[ $a -gt $linenumber ]]
 	then exit
 	else echo "Létezik."
 fi
-szemelyadat=`cat adatok.dat | grep ^$a.*`
+szemelyadat=`cat data.dat | grep ^$a.*`
 echo "Adatok:" $szemelyadat
 echo " "
 sorszam=`echo $szemelyadat | cut -d";" -f1`
@@ -34,7 +34,9 @@ echo ".......Gyerekek száma:" $gyerek
 
 echo " "
 
-let eletkor=`date | cut -d \. -f 1`-`echo $szulido | cut -d" " -f 1`
+echo date
+
+let eletkor=`date +'%Y' | cut -d \. -f 1`-`echo $szulido | cut -d" " -f 1`
 echo "Életkor:" $eletkor
 
 echo " "

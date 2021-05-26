@@ -1,5 +1,0 @@
-#!/bin/bash
-a="4"
-b="8"
-let c=$a+$b
-echo $c
